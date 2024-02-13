@@ -60,7 +60,7 @@ public class App {
     }
 
     private static void loadEnv() throws Exception {
-        File filePath = new File(".env-staging");
+        File filePath = new File(".env");
         if (!filePath.exists()) {
             throw new Exception("Please create .env file");
         }
